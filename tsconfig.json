@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "outDir": "./server_dist"
+  },
+  "include": [
+    "./server/"
+  ],
+}
