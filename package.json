@@ -11,6 +11,6 @@
   "scripts": {
     "develop": "npx nodemon ./server/src/index.ts",
     "build": "cd client && npm install && npm run build",
-    "start": "npx ts-node ./server/src/index.ts"
+    "start": "npm install && npx ts-node ./server/src/index.ts"
   }
 }
