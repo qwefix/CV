@@ -5,11 +5,11 @@
     "ts-node": "^10.9.1"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "typescript": "^4.9.4"
+    "express": "^4.18.2"
   },
   "scripts": {
-    "develop": "npx nodemon ./server/src/index.ts",
+    "devClient": "cd client && npm run start",
+    "devServer": "npx nodemon ./server/src/index.ts ",
     "build": "tsc && cd client && npm install && npm run build",
     "start": "node ./server_dist/index.js"
   }
